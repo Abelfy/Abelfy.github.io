@@ -2,6 +2,6 @@ pages:
   stage: deploy
   script:
   - echo 'Copy...'
-  - cp -r SiteCV/ /var/www/html/
+  - sudo cp -r SiteCV/ /var/www/html/
   only:
   - master
