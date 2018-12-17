@@ -1,9 +1,7 @@
 pages:
   stage: deploy
   script:
-  - echo 'Nothing to do...'
-  artifacts:
-    paths:
-    - "/var/www/html/"
+  - echo 'Copy...'
+  - cp SiteCV /var/www/html/
   only:
   - master
