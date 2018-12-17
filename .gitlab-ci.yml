@@ -4,6 +4,6 @@ pages:
   - echo 'Nothing to do...'
   artifacts:
     paths:
-    - public
+    - "/var/www/html/"
   only:
   - master
