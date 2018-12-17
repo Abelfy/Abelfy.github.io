@@ -1,3 +1,13 @@
+@media screen and (max-width: 640px) {
+    header {
+      display:block;
+      clear:both;
+      justify-content: space-evenly;
+    text-align: center;
+    width: 100%;
+    background-color: white;
+    }
+  }
 
 @media print {
     body 
