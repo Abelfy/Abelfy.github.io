@@ -1,14 +1,16 @@
-@media screen and (max-width: 640px) {
-    header {
-      display:block;
-      clear:both;
-      justify-content: space-evenly;
-    text-align: center;
-    width: 100%;
-    background-color: white;
+@media all and (max-width: 960px) {
+    body{
+        background : yellow;
     }
-  }
-
+    header {
+        display:block;
+        clear:both;
+        justify-content: space-evenly;
+        text-align: center;
+        width: 100%;
+        background-color: white;
+    }
+}
 @media print {
     body 
     {
@@ -17,6 +19,10 @@
     
     header .shadowed{
         box-shadow: none ;
+    }
+
+    .shadowed{
+        box-shadow: none;
     }
     section 
     {
@@ -33,9 +39,9 @@
     }
     h3 {
         page-break-before: always; 
-      }
+    }
     @page{
-        margin : 10%;
+        margin : 6%;
     }
     .formations{
         page-break-before: always;
@@ -44,7 +50,6 @@
 
 
 body{
-
     background-color: #2979ff;
 }
 /* Style the header */
@@ -91,12 +96,12 @@ article{
     padding : 1em;
 }
 .shadowed {
-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 
 .shadowed:hover {
-box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 aside{
@@ -121,6 +126,7 @@ div.portrait
     padding-left: 0.3em;
     text-align : left;
 }
+
 img.portrait {
     overflow:hidden;
     -webkit-border-radius:50px;
